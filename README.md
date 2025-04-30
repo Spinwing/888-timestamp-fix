@@ -59,15 +59,15 @@ Open your terminal or command prompt, navigate to the script's directory, and ru
 
 *   **Using default `config.yaml` in the same directory:**
     ```bash
-    python poker-copilot-888-fix.py
+    python 888-timestamp-fix.py
     ```
 *   **Specifying a different config file:**
     ```bash
-    python poker-copilot-888-fix.py /path/to/your/custom_config.yaml
+    python 888-timestamp-fix.py /path/to/your/custom_config.yaml
     ```
 *   **Overriding config options via command line:**
     ```bash
-    python poker-copilot-888-fix.py --input-dir /new/input --time-diff 8 --debug
+    python 888-timestamp-fix.py --input-dir /new/input --time-diff 8 --debug
     ```
 
 Leave the script running while you play poker. It will monitor the input directory and process hands as they are written by the 888 client.
