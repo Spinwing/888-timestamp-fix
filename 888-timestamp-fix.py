@@ -23,7 +23,7 @@ Disclaimer:
     risk and responsibility. Ensure it functions correctly with your setup.
 
 Copyright:
-    Copyright (c) 2025 Stefano Vedovelli - spnwng@yahoo.it. All rights reserved.
+    Copyright (c) 2025 Spinwing. All rights reserved.
 """
 
 # --- Default Configuration ---
