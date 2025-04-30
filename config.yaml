@@ -1,0 +1,14 @@
+# Configuration for the 888 Poker Hand History Converter
+
+# Directory where 888 Poker writes the original hand history files (MANDATORY - USE ABSOLUTE PATH)
+input_dir: "./input"
+# Directory where the script will write the corrected hand history files (MANDATORY - USE ABSOLUTE PATH)
+output_dir: "./output"
+# Time difference in hours to add to the original timestamp (e.g., 7 for CET from CT)
+time_difference_hours: 8
+# Path for the log file (use absolute path for clarity)
+log_file: "./hand_history_converter.log"
+# File encoding for hand history files (e.g., utf-8, cp1252, latin-1)
+file_encoding: "utf-8"
+# How often the script checks for file changes (in seconds) - less relevant with watchdog but used in main loop sleep
+poll_interval_seconds: 1

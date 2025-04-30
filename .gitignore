@@ -1,0 +1,14 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+
+# User-specific config (if renamed)
+my_real_config.yaml
+
+# OS-specific files (macOS)
+.DS_Store
